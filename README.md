@@ -17,3 +17,28 @@ Authentication (Context API for session handling).
 Redux for Posts/Comments: Global state for managing posts, likes, and comments.
 Real-Time Chat with WebSockets.
 In-app notifications for interactions.
+Step 1: Basic Backend Setup with Node.js and Express
+Initialize the Project
+Environment Configuration
+
+Create a .env file for storing environment variables:
+Basic Server Setup
+
+Step 2: Authentication with JWT
+User Schema (models/User.js):
+Auth Routes (routes/authRoutes.js):
+Step 3: Frontend with React, Redux, and Context API
+Create React Project:
+Context API for Authentication:
+
+Redux Setup for Global State Management:
+
+Define Redux slices for managing posts, comments, and likes.
+Sample Post Reducer (features/postSlice.js):
+Step 4: Real-Time Chat with WebSockets
+Socket.io on the Backend:
+
+Socket.io on the Client:
+
+In Chat.js component:
+
